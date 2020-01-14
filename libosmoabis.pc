@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: A-bis Core Library
+Description: C Utility Library
+Version: 0.5.1.20-de57
+Libs: -L${libdir} -losmoabis
+Cflags: -I${includedir}/
+
